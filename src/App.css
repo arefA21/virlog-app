@@ -2,7 +2,7 @@
 
 :root {
     --bluenavy: #2c3e50;
-    --pink: #e056fd;
+    --lightpurple: #e056fd;
     --bluesky: #c7ecee;
     --darkblue: #30336b;
 }
@@ -19,7 +19,6 @@ body {
 }
 
 .App {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    max-width: 700px;
+    margin: 0 auto;
 }

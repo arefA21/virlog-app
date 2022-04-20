@@ -1,0 +1,28 @@
+.navbar-class {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 0rem;
+}
+
+.navbar-class h2 {
+    color: var(--lightpurple);
+}
+
+.navbar-class button {
+    background-color: var(--bluesky);
+    color: #555;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.3rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.navbar-class button:hover {
+    background-color: aqua;
+}
+
